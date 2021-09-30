@@ -6,6 +6,7 @@ import Course from "./course"
 import SearchBar from "./search"
 import CourseTopDiv from "./courses";
 import About from './About'
+import { WhatWillYouLearn } from './WhatWillYouLearn'
 
 import {
     BrowserRouter as Router,
@@ -37,6 +38,7 @@ function App() {
                         <>
                             <HomeAppHero />
                             <About />
+                            <WhatWillYouLearn />
                         </>
                     </Route>
                 </Switch>
