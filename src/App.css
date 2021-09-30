@@ -32,8 +32,9 @@
 }
 
 .coursesDiv{
-    margin-left: 30px;
-  gap:20px;
+    margin-left: 10px;
+  margin-right:15px;
+  gap: 15px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -115,6 +116,9 @@
   }
   #searchDiv {
     margin: auto !important;
+  }
+  #mainCourse {
+    margin: auto;
   }
 }
 
