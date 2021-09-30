@@ -19,7 +19,7 @@ function SearchBar(){
             </div>
 
             <div id="searchDiv">
-                <input value={ query } onChange={ (e) => { setQuery(e.target.value) } } type="search" id="searchBar" placeholder="Search for Courses.."/>
+                <input autocomplete='off' value={ query } onChange={ (e) => { setQuery(e.target.value) } } type="search" id="searchBar" placeholder="Search for Courses.."/>
                 <button id="searchBtn" onClick={(e)=>{search(query)}}><i className="fa fa-search" id="searchIco" /></button>
             </div>
         </div>

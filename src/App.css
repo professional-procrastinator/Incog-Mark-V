@@ -35,6 +35,7 @@
     margin-left: 30px;
   gap:20px;
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
@@ -88,7 +89,7 @@
     border: none;
     border-bottom: 2px solid grey;
     padding:15px 12px 15px 12px;
-
+    text-align: center;
     width: 80%;
 }
 #searchBtn{
@@ -105,6 +106,16 @@
     flex-flow:row wrap;
     width: 100%;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  #topHead {
+    flex-direction: column;
+    text-align: center;
+  }
+  #searchDiv {
+    margin: auto !important;
+  }
 }
 
 #courseText{
