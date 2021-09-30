@@ -36,6 +36,7 @@ const Courses = require('./courses.json');
 function App() {
     return (
         <Router>
+            {/* SETUP ROUTING*/}
             <div className="App">
                 <div id="topDiv"></div>
                 <Header title='WebieCamp' />
@@ -72,6 +73,8 @@ function App() {
 
 export default App;
 
+// Course page component
+
 function CoursePage(){
     return(
         <div className='App'>
@@ -90,17 +93,24 @@ function CoursePage(){
     )
 }
 
+// SingleCoursePage component
+
 function SingleCoursePage(){
     return(
         <CourseTopDiv />
     )
 }
 
+// Datepage component
+
 function DatePage(){
     return(
         <Dates></Dates>
     )
 }
+
+// Registeration page component
+
 function Reg(){
     return <RegForm />
 }

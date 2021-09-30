@@ -3,6 +3,7 @@ import './homeAppHeroMain.css'
 import React from 'react'
 
 export const HomeAppHero = () => {
+  // MAIN HOME APP HERO COMPONENT
   return (
     <div className='homeAppHeroMain'>
       <div className='homeAppHeroLeftArea'>

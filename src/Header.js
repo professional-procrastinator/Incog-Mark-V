@@ -3,9 +3,13 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import React from 'react'
 
+// Header component code
+
 export const Header = ( { title } ) => {
+  // Getting title as a prop and destructuring it
   return (
     <header className='header'>
+      {/* RENDERING HEADER */}
       <div className='headerLeftArea'>
         <div className='title'><i className="fa fa-keyboard-o" aria-hidden="true"></i> &nbsp; { title }</div>
       </div>
