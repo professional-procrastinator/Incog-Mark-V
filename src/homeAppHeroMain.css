@@ -1,5 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .homeAppHeroMain {
-  height: calc(100vh - 97px);
+  text-align: left !important;
+  display: flex;
+  height: calc(100vh - 95px);
   width: 100%;
-  background: red;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeAppHeroLeftArea {
+  width: 40%;
+  padding: 100px 50px;
+}
+
+@media screen and (max-width: 1340px) {
+  .homeAppHeroLeftArea {
+    width: 60%;
+  }
+  .homeAppHeroImage {
+    width: 400px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .homeAppHeroImage {
+    width: 300px !important;
+  }
+  .homeAppHeroLeftArea {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .homeAppHeroMain {
+    padding: 5px;
+    flex-direction: column !important;
+  }
+  .homeAppHeroLeftArea {
+    padding: 10px;
+  }
+  .homeAppHeroRightArea {
+    padding: 10px;
+  }
+  .homeAppHeroImage {
+    width: 100% !important;
+  }
+  .homeAppHeroHeading {
+    font-size: 25px !important;
+  }
+}
+
+.homeAppHeroHeading {
+  font-size: 40px;
+  font-family: Poppins;
+}
+
+.homeAppHeroDesc {
+  font-size: 22px;
+}
+
+.homeAppHeroGetStarted {
+  background: rgb(39, 125, 255);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.homeAppHeroImage {
+  width: 450px;
 }

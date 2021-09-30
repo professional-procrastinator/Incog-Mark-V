@@ -7,7 +7,7 @@ export const Header = ( { title } ) => {
   return (
     <header className='header'>
       <div className='headerLeftArea'>
-        <div className='title'>{ title }</div>
+        <div className='title'><i className="fa fa-keyboard-o" aria-hidden="true"></i> &nbsp; { title }</div>
       </div>
       <div className='headerRightArea'>
         <nav className='nav'>

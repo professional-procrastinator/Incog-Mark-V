@@ -2,12 +2,11 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background: rgb(240, 240, 240);
-  box-shadow: 0 1px 5px grey;
+  background: rgb(243, 243, 243);
   margin-bottom: 20px;
   align-items: center;
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 5px 12px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -16,6 +15,7 @@
     padding: 20px;
   }
   .title {
+    margin: auto;
     margin-bottom: 15px;
   }
   .navListItem {
@@ -35,15 +35,20 @@
 
 .navList {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .navListItem {
   list-style-type: none;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .navLink {
   color: black;
   text-decoration: none;
+}
+
+.headerLeftArea {
+  display: flex;
+  justify-content: space-between;
 }
