@@ -1,0 +1,5 @@
+.homeAppHeroMain {
+  height: calc(100vh - 97px);
+  width: 100%;
+  background: red;
+}

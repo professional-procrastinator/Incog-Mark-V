@@ -1,3 +1,4 @@
+import { HomeAppHero } from './homeAppHero';
 import Header from './Header'
 import React from "react"
 import './App.css';
@@ -23,8 +24,13 @@ function App() {
             <div id="topDiv"></div>
             <Header title='Coding bootcamp' />
             <Switch>
-                <Route path="/courses">
+                <Route exact path="/courses">
                     <CoursePage />
+                </Route>
+                <Route exact path='/'>
+                    <>
+                    <HomeAppHero />
+                    </>
                 </Route>
             </Switch>
         </div>
