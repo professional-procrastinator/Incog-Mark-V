@@ -18,6 +18,9 @@ export const Header = ( { title } ) => {
             <li className='navListItem'>
               <Link className='navLink' to='/courses'>Courses</Link>
             </li>
+            <li className='navListItem'>
+              <Link className='navLink' to='/about'>About</Link>
+            </li>
           </ul>
         </nav>
       </div>

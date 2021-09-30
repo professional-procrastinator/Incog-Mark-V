@@ -8,6 +8,7 @@ import CourseTopDiv from "./courses";
 import About from './About'
 import { WhatWillYouLearn } from './WhatWillYouLearn'
 import { Footer } from './Footer';
+import { AboutMore } from './AboutMore'
 
 import {
     BrowserRouter as Router,
@@ -34,6 +35,9 @@ function App() {
                     </Route>
                     <Route exact path="/course/">
                         <SingleCoursePage />
+                    </Route>
+                    <Route exact path='/about'>
+                        <AboutMore />
                     </Route>
                     <Route exact path='/'>
                         <>

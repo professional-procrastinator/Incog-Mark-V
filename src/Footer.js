@@ -7,6 +7,7 @@ export const Footer = () => {
     textAlign: "center",
     color: "white",
     width: "100%",
+    
   }
   return (
     <footer style={ footerStyles } className='footer'>

@@ -11,6 +11,22 @@
   color: white;
 }
 
+.aboutUsBig {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin-top: 70px;
+  text-align: left;
+  background: white;
+  color: black;
+}
+
+.big {
+  background: white !important;
+  color: black;
+}
+
 @media screen and (max-width: 750px) {
   .aboutUs {
     margin-top: 150px;
@@ -19,6 +35,10 @@
   }
   .aboutImage {
     width: 90% !important;
+  }
+  .aboutUsBig {
+    margin: 15px !important;
+    padding: 40px;
   }
 }
 
@@ -64,6 +84,21 @@
   background: rgb(224, 224, 139);
 }
 
+.aboutBack {
+  padding: 10px 20px;
+  background: rgb(37, 88, 255);
+  color: black;
+  font-size: 17px !important;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.aboutBack:hover {
+  background: rgb(115, 148, 255);
+}
+
 .aboutDescr {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
