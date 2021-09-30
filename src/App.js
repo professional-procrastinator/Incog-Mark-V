@@ -1,3 +1,4 @@
+import Header from './Header'
 import React from "react"
 import './App.css';
 import Course from "./course"
@@ -19,9 +20,8 @@ function App() {
   return (
     <Router>
         <div className="App">
-
             <div id="topDiv"></div>
-
+            <Header title='Coding bootcamp' />
             <Switch>
                 <Route path="/courses">
                     <CoursePage />

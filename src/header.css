@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: rgb(212, 212, 212);
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navListItem {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+}
