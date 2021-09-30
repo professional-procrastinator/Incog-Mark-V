@@ -1,3 +1,4 @@
+import './whatWillYouLearn.css'
 import { Link } from 'react-router-dom'
 import React from 'react'
 
@@ -10,7 +11,7 @@ export const WhatWillYouLearn = () => {
       <p className='whatWillYouLearnDescr'>
         You will learn many web development related technologies such as - HTML, CSS, JS, REACT and NEXT! These will help you make websites, and make you a front end master.
       </p>
-      <Link to='/courses'>See courses here</Link>
+      <Link className='whatWillYouLearnLink' to='/courses'>See courses here</Link>
     </div>
   )
 }

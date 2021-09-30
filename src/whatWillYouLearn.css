@@ -1,0 +1,29 @@
+.whatWillYouLearn {
+  text-align: left;
+  width: 100%;
+  padding: 120px;
+}
+
+.whatWillYouLearnHeading {
+  font-size: 30px;
+}
+
+.whatWillYouLearnDescr {
+  font-size: 20px;
+}
+
+.whatWillYouLearnLink {
+  padding: 10px 20px;
+  background: rgb(36, 94, 255);
+  color: black;
+  font-size: 17px !important;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.whatWillYouLearnLink:hover {
+  background: rgb(0, 58, 231);
+}
