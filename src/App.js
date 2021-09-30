@@ -6,10 +6,9 @@ import Course from "./course"
 import SearchBar from "./search"
 import CourseTopDiv from "./courses";
 import Dates from "./dates";
-import About from './About'
+import About from './About';
 import { WhatWillYouLearn } from './WhatWillYouLearn'
 import { Footer } from './Footer';
-import { AboutMore } from './AboutMore'
 
 import {
     BrowserRouter as Router,
@@ -21,8 +20,14 @@ import {
 
 import reactLogo from "./img/react.jpg"
 import jsLogo from "./img/javascript.png"
+import NextLogo from "./img/next.png"
+import htmlLogo from "./img/html.webp"
+import DjangoLogo from "./img/django.png"
+import cssLogo from "./img/css.png"
+
 
 const Courses = require('./courses.json');
+
 
 function App() {
     return (
@@ -39,9 +44,6 @@ function App() {
                     </Route>
                     <Route exact path="/dates/">
                         <DatePage />
-                    </Route>
-                    <Route exact path="/about">
-                        <AboutMore />
                     </Route>
                     <Route exact path='/'>
                         <>
@@ -68,7 +70,10 @@ function CoursePage(){
             <div className="coursesDiv">
                 <Course name={Courses['React in 30 days']['name']} desc={Courses['React in 30 days']['desc']} img={reactLogo} tags={Courses['React in 30 days']['tags']}/>
                 <Course name={Courses['Javascript 101']['name']} desc={Courses['Javascript 101']['desc']} img={jsLogo} tags={Courses['Javascript 101']['tags']}/>
-
+                <Course name={Courses['Basic web dev and HTML']['name']} desc={Courses['Basic web dev and HTML']['desc']} img={htmlLogo} tags={Courses['Basic web dev and HTML']['tags']}/>
+                <Course name={Courses['Next js in 5 days']['name']} desc={Courses['Next js in 5 days']['desc']} img={NextLogo} tags={Courses['Next js in 5 days']['tags']}/>
+                <Course name={Courses['CSS in 20 days']['name']} desc={Courses['CSS in 20 days']['desc']} img={cssLogo} tags={Courses['CSS in 20 days']['tags']}/>
+                <Course name={Courses['Web Dev using Python']['name']} desc={Courses['Web Dev using Python']['desc']} img={DjangoLogo} tags={Courses['Web Dev using Python']['tags']}/>
             </div>
         </div>
     )

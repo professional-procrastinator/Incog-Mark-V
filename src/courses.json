@@ -1,30 +1,45 @@
 {
   "Next js in 5 days": {
     "name": "Next js in 5 days",
-    "desc": "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.",
+    "desc": "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering.",
     "tags": "Node JS",
-    "info": "Students who are passionate about technology. \n Classes VIII to X. \n Have a good internet connection, and can attend online classes.",
+    "info": "Students who are passionate about technology. \n Classes XI to XII. \n Have a good internet connection, and can attend online classes.",
     "date": "2 weeks \n 10th October to 24th October"
 
   },
   "React in 30 days": {
     "name": "React in 30 days",
     "desc": "React is a free and open-source front-end JavaScript library. It is extremely useful, and allows developers to create websites quickly and efficiently. Join this course to learn react.",
-    "tags": "Node JS"
+    "tags": "Node JS",
+    "info": "Students who are passionate about technology. \n Classes IX to X. \n Have a good internet connection, and can attend online classes.",
+    "date": "2 weeks \n 10th October to 24th October"
   },
   "Javascript 101": {
     "name": "Javascript 101",
     "desc": "Javascript is the language used for building websites, along with HTML and CSS. Learn it to start off with both frontend and backend of web development.",
-    "tags": "Web Development"
+    "tags": "Web Development",
+    "info": "Students who are passionate about technology. \n Classes VIII to IX. \n Have a good internet connection, and can attend online classes.",
+    "date": "2 weeks \n 10th October to 24th October"
   },
   "CSS in 20 days": {
     "name": "CSS in 30 days",
-    "desc": "CSS or (Cascading Styled Sheets) is the language used for styling your websites, this will increase the user exprience along with the beauty of your website. Join this course to learn CSS",
-    "tags": "Web Development"
+    "desc": "CSS is the language used for styling your websites, this will increase the user experience along with the beauty of your website. Join this course to learn CSS",
+    "info": "Students who are passionate about technology. \n Classes V to VII. \n Have a good internet connection, and can attend online classes.",
+    "date": "2 weeks \n 10th October to 24th October",
+    "tags": "Styling"
   },
   "Basic web dev and HTML": {
     "name": "Basic web dev and HTML",
-    "desc": "In this course you will get an indtroduction of how websites are made, and you will learn HTML or (Hyper text markup language). Join this course and make your first website! ",
-    "tags": "Web Development"
+    "desc": "In this course you will get an introduction of how websites are made, and you will learn HTML or (Hyper text markup language). Join this course and make your first website! ",
+    "tags": "Web Development",
+    "info": "Students who are passionate about technology. \n Classes III to V. \n Have a good internet connection, and can attend online classes.",
+    "date": "2 weeks \n 10th October to 24th October"
+  },
+  "Web Dev using Python": {
+    "name": "Web Dev using Python",
+    "desc": "In this course you'll learn all about Web Development with Python + Django, for creating some amazing websites, instead of using tons of other libraries or languages. ",
+    "tags": "Web Development",
+    "info": "Students who are passionate about technology. \n Classes III to V. \n Have a good internet connection, and can attend online classes.",
+    "date": "2 weeks \n 10th October to 24th October"
   }
 }
