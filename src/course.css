@@ -4,12 +4,28 @@
 }
 
 .codeBg{
-    margin-left: 20px;
+    margin-left: 30px;
     max-width: 100%;
+    width: 80%;
     height: auto;
 }
+
+@media screen and (max-width: 1000px) {
+    #topInfo {
+        flex-direction: column;
+    }
+}
+
+#main {
+    padding: 50px 0;
+}
+
 #topInfo{
     display: flex;
+    padding: 15px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 #infoDiv{
     margin-left:30px;

@@ -9,6 +9,7 @@ import Dates from "./dates";
 import About from './About'
 import { WhatWillYouLearn } from './WhatWillYouLearn'
 import { Footer } from './Footer';
+import { AboutMore } from './AboutMore'
 
 import {
     BrowserRouter as Router,
@@ -38,6 +39,9 @@ function App() {
                     </Route>
                     <Route exact path="/dates/">
                         <DatePage />
+                    </Route>
+                    <Route exact path="/about">
+                        <AboutMore />
                     </Route>
                     <Route exact path='/'>
                         <>
