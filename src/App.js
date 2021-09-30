@@ -5,10 +5,10 @@ import './App.css';
 import Course from "./course"
 import SearchBar from "./search"
 import CourseTopDiv from "./courses";
+import Dates from "./dates";
 import About from './About'
 import { WhatWillYouLearn } from './WhatWillYouLearn'
 import { Footer } from './Footer';
-import { AboutMore } from './AboutMore'
 
 import {
     BrowserRouter as Router,
@@ -36,8 +36,8 @@ function App() {
                     <Route exact path="/course/">
                         <SingleCoursePage />
                     </Route>
-                    <Route exact path='/about'>
-                        <AboutMore />
+                    <Route exact path="/dates/">
+                        <DatePage />
                     </Route>
                     <Route exact path='/'>
                         <>
@@ -64,6 +64,7 @@ function CoursePage(){
             <div className="coursesDiv">
                 <Course name={Courses['React in 30 days']['name']} desc={Courses['React in 30 days']['desc']} img={reactLogo} tags={Courses['React in 30 days']['tags']}/>
                 <Course name={Courses['Javascript 101']['name']} desc={Courses['Javascript 101']['desc']} img={jsLogo} tags={Courses['Javascript 101']['tags']}/>
+
             </div>
         </div>
     )
@@ -72,5 +73,11 @@ function CoursePage(){
 function SingleCoursePage(){
     return(
         <CourseTopDiv />
+    )
+}
+
+function DatePage(){
+    return(
+        <Dates></Dates>
     )
 }

@@ -4,11 +4,11 @@ import codeBg from "./img/code.jpg"
 import "./course.css"
 
 const Courses = require("./courses.json")
-function CourseTopDiv() {
+function Dates() {
     var params = new URLSearchParams(useLocation().search);
     var cName = params.get("c")
 
-    var info = Courses[cName]["info"];
+    var dates = Courses[cName]["date"];
 
 
     return (
@@ -31,14 +31,14 @@ function CourseTopDiv() {
             </div>
 
             <div id="nav">
-                <button className="links active">
-                    <Link to={useLocation()} style={{textDecoration: 'none', color: "white"}}>
+                <button className="links">
+                    <Link to={`course?c=${cName}`}  style={{textDecoration: 'none', color: "black"}}>
                         Who can join
                     </Link>
                 </button>
 
-                <button className="links">
-                    <Link to={`dates?c=${cName}`} style={{textDecoration: 'none', color: "black"}}>
+                <button className="links active">
+                    <Link to={useLocation()} style={{textDecoration: 'none', color: "white"}}>
                         Dates
                     </Link>
                 </button>
@@ -46,11 +46,11 @@ function CourseTopDiv() {
 
             <div id='moreInfo'>
 
-                    <p>{info}</p>
+                <p>{dates}</p>
 
             </div>
 
         </div>
     )
 }
-export default CourseTopDiv
+export default Dates

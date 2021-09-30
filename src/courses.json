@@ -2,7 +2,10 @@
   "Next js in 5 days": {
     "name": "Next js in 5 days",
     "desc": "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.",
-    "tags": "Node JS"
+    "tags": "Node JS",
+    "info": "Students who are passionate about technology. \n Classes VIII to X. \n Have a good internet connection, and can attend online classes.",
+    "date": "2 weeks \n 10th October to 24th October"
+
   },
   "React in 30 days": {
     "name": "React in 30 days",
