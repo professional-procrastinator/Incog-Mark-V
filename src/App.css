@@ -295,15 +295,21 @@
     text-align: center;
     width:100%;
     height:100%;
-    background: linear-gradient(90deg, rgba(29,237,25,1) 0%, rgba(0,138,255,1) 100%);
+    background: linear-gradient(125deg, rgba(255, 255, 255, 0.5),rgb(58, 101, 138));
 }
+
 #regForm form{
     align-content: center;
     display: flex;
     flex-flow: column wrap;
     gap:20px;
-    margin-bottom: 526px;
+
 }
+
+#regForm {
+    height: calc(100vh - 144px);
+}
+
 #regForm form input{
     outline: none;
     transition: all 1s;
@@ -315,10 +321,11 @@
     padding:10px;
     margin-left: auto;
     margin-right: auto;
-    width:5% !important;
+    width:300px !important;
     background-color: #409cef;
     cursor:pointer;
     color:white;
+    transition: all 0.3s;
 }
 #regForm form button:hover{
     background-color: #3a7cfc;
@@ -326,7 +333,7 @@
 .regInput{
     border:none;
     background-color: transparent;
-    width:20%;
+    width:300px;
 }
 #regForm form input:focus{
     border-bottom: 2px solid green;
