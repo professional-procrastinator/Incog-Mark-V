@@ -20,7 +20,7 @@ function Course(props){
             <h4>{desc}</h4>
 
             <p><i className='fa fa-tag'/>&nbsp;{tags}</p>
-            <button className="joinCourseBtn">Join</button>
+            <button className="joinCourseBtn" onClick={(e)=>{window.location = `course?c=${name}`}}>Join</button>
         </div>
     )
 

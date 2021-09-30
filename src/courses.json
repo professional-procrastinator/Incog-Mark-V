@@ -1,10 +1,10 @@
 {
-  "React": {
-    "name": "React",
+  "React in 30 days": {
+    "name": "React in 30 days",
     "desc": "React is a free and open-source front-end JavaScript library. It is extremely useful, and allows developers to create websites quickly and efficiently. Join this course to learn react.",
     "tags": "Node JS"
   },
-  "Javascript": {
+  "Javascript 101": {
     "name": "Javascript 101",
     "desc": "Javascript is the language used for building websites, along with HTML and CSS. Learn it to start off with both frontend and backend of web development.",
     "tags": "Web Development"

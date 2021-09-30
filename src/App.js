@@ -4,7 +4,7 @@ import React from "react"
 import './App.css';
 import Course from "./course"
 import SearchBar from "./search"
-import About from './About';
+import CourseTopDiv from "./courses";
 
 import {
     BrowserRouter as Router,
@@ -20,25 +20,27 @@ import jsLogo from "./img/javascript.png"
 const Courses = require('./courses.json');
 
 function App() {
-  return (
-    <Router>
-        <div className="App">
-            <div id="topDiv"></div>
-            <Header title='Coding bootcamp' />
-            <Switch>
-                <Route exact path="/courses">
-                    <CoursePage />
-                </Route>
-                <Route exact path='/'>
-                    <>
-                    <HomeAppHero />
-                    <About />
-                    </>
-                </Route>
-            </Switch>
-        </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <div id="topDiv"></div>
+                <Header title='Coding bootcamp' />
+                <Switch>
+                    <Route exact path="/courses">
+                        <CoursePage />
+                    </Route>
+                    <Route exact path="/course/">
+                        <SingleCoursePage />
+                    </Route>
+                    <Route exact path='/'>
+                        <>
+                            <HomeAppHero />
+                        </>
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
@@ -50,9 +52,15 @@ function CoursePage(){
 
 
             <div className="coursesDiv">
-                <Course name={Courses['React']['name']} desc={Courses['React']['desc']} img={reactLogo} tags={Courses['React']['tags']}/>
-                <Course name={Courses['Javascript']['name']} desc={Courses['Javascript']['desc']} img={jsLogo} tags={Courses['Javascript']['tags']}/>
+                <Course name={Courses['React in 30 days']['name']} desc={Courses['React in 30 days']['desc']} img={reactLogo} tags={Courses['React in 30 days']['tags']}/>
+                <Course name={Courses['Javascript 101']['name']} desc={Courses['Javascript 101']['desc']} img={jsLogo} tags={Courses['Javascript 101']['tags']}/>
             </div>
         </div>
+    )
+}
+
+function SingleCoursePage(){
+    return(
+        <CourseTopDiv />
     )
 }
