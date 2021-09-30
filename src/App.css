@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+  font-family: Inter;
+}
+
+.App {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.coursesDiv{
+  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: flex;
+  flex-flow: column wrap;
+}
+.courseHeading{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coursesDiv{
+  gap:20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mainCourse{
+  user-select: none;
+  width:300px;
+  height:380px;
+  background-color: #d5d5d5;
+  transition: all 0.3s;
+
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  cursor: pointer;
+}
+.mainCourse:hover{
+  transform: scale(1.03,1.03);
+}
+.mainCourse p{
+
+  font-size:small
+}
+
+
+.courseImg{
+  width:300px;
+  height:110px;
+}
+
+
