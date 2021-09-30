@@ -1,33 +1,30 @@
 
-import React from "react";
+import {React,useState} from "react";
+import {useHistory} from "react-router-dom";
 
 
-class Course extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-            name:props.name,
-            desc:props.desc,
-            img:props.img,
-            CourseTags:props.tags
-        }
+function Course(props){
+    let History = useHistory();
 
-    }
+    const [img,setImg] =useState(props.img)
+    const [name,setName] =useState(props.name)
+    const [desc,setDesc] =useState(props.desc)
+    const [tags,setTags] = useState(props.tags)
 
-    render(){
 
-        return(
-            <div className='mainCourse'>
-                <img src={this.state.img} className="courseImg" />
-                <h2>{this.state.name}</h2>
-                <h4>{this.state.desc}</h4>
 
-                <p>{this.state.CourseTags}</p>
+    return(
+        <div className='mainCourse'>
+            <img src={img} className="courseImg" />
+            <h2>{name}</h2>
+            <h4>{desc}</h4>
 
-            </div>
-        )
+            <p><i className='fa fa-tag'/>&nbsp;{tags}</p>
+            <button className="joinCourseBtn">Join</button>
+        </div>
+    )
 
-    }
+
 }
 
 export default Course;

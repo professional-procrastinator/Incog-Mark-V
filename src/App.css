@@ -39,10 +39,11 @@
 .mainCourse{
   user-select: none;
   width:300px;
-  height:380px;
+  height:400px;
   background-color: #d5d5d5;
   transition: all 0.3s;
 
+  position: relative;
   display: flex;
   flex-flow: column wrap;
   margin-left: auto;
@@ -57,9 +58,24 @@
 
   font-size:small
 }
+.joinCourseBtn{
+  font-size:20px;
+  padding:5px;
+  border:none;
+  border-radius: 8px;
+  background-color: #3a7cfc;
+  transition: all 0.5s;
+  position: relative;
+}
+.joinCourseBtn:hover{
+
+  background-color: #0660b0;
+}
 
 
 .courseImg{
+  margin-top: 0;
+
   width:300px;
   height:110px;
 }
