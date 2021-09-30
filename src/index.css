@@ -29,3 +29,7 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(0, 67, 148); 
 }
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
