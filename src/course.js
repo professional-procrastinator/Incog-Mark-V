@@ -22,7 +22,7 @@ class Course extends React.Component{
                 <h2>{this.state.name}</h2>
                 <h4>{this.state.desc}</h4>
 
-                <p><i className='fa fa-tag'/>&nbsp;{this.state.CourseTags}</p>
+                <p>{this.state.CourseTags}</p>
 
             </div>
         )
