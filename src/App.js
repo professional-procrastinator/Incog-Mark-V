@@ -4,6 +4,7 @@ import React from "react"
 import './App.css';
 import Course from "./course"
 import SearchBar from "./search"
+import About from './About';
 
 import {
     BrowserRouter as Router,
@@ -31,6 +32,7 @@ function App() {
                 <Route exact path='/'>
                     <>
                     <HomeAppHero />
+                    <About />
                     </>
                 </Route>
             </Switch>
