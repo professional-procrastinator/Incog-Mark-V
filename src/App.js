@@ -1,7 +1,7 @@
 import React from "react"
 import './App.css';
 import Course from "./course"
-import 'font-awesome/css/font-awesome.min.css';
+
 import {
     BrowserRouter as Router,
     Switch,
