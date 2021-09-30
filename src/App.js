@@ -3,6 +3,7 @@ import Header from './Header'
 import React from "react"
 import './App.css';
 import Course from "./course"
+import SearchBar from "./search"
 
 import {
     BrowserRouter as Router,
@@ -43,9 +44,8 @@ export default App;
 function CoursePage(){
     return(
         <div className='App'>
-            <h2 className="courseHeading">
-                Courses
-            </h2>
+            <SearchBar/>
+
 
             <div className="coursesDiv">
                 <Course name={Courses['React']['name']} desc={Courses['React']['desc']} img={reactLogo} tags={Courses['React']['tags']}/>
