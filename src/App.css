@@ -32,6 +32,7 @@
 }
 
 .coursesDiv{
+    margin-left: 30px;
   gap:20px;
   display: flex;
   flex-flow: row wrap;
@@ -100,7 +101,7 @@
 
 #topHead{
     display: flex;
-    padding:40px ;
+    padding:50px;
     flex-flow:row wrap;
     width: 100%;
   justify-content: space-between;

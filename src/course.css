@@ -1,0 +1,30 @@
+.codeBg{
+    width:330px;
+    height:270px;
+}
+#topInfo{
+    display: flex;
+}
+#infoDiv{
+    margin-left:30px;
+    text-align: left;
+    display: flex;
+    flex-flow:column wrap;
+}
+#infoDiv h2{
+    font-weight: bolder;
+    font-size:40px;
+}
+
+.links{
+    width:100px;
+    height:30px;
+    padding:7px;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    background-color: #ffffff;
+}
+.links.active{
+    background-color: #3a7cfc;
+}
