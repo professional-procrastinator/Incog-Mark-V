@@ -7,6 +7,7 @@ import SearchBar from "./search"
 import CourseTopDiv from "./courses";
 import About from './About'
 import { WhatWillYouLearn } from './WhatWillYouLearn'
+import { Footer } from './Footer';
 
 import {
     BrowserRouter as Router,
@@ -26,7 +27,7 @@ function App() {
         <Router>
             <div className="App">
                 <div id="topDiv"></div>
-                <Header title='Coding bootcamp' />
+                <Header title='WebieCamp' />
                 <Switch>
                     <Route exact path="/courses">
                         <CoursePage />
@@ -42,6 +43,7 @@ function App() {
                         </>
                     </Route>
                 </Switch>
+                <Footer />
             </div>
         </Router>
     );
